@@ -1,0 +1,13 @@
+.bg-OffGrey {
+  background-color: rgb(88, 88, 88);
+}
+.bg-grey {
+  background-color: rgb(167, 167, 167);
+}
+.IconBrand {
+  background-color: darkgray;
+  align-self: center;
+  border-radius: 2.5rem;
+  margin: 0.5vw;
+  height: 5vh;
+}
