@@ -12,6 +12,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -31,7 +32,7 @@
   <body>
     <section name="Navigation">
       <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand ml-5" href="#"
           ><img
             class="IconBrand"
             src="/View/Img/IconMe.png"
@@ -112,12 +113,12 @@
       </div>
     </section>
     <section class="hero-banner bg-secondary" name="Banner">
-      <div class="container">
+      <div class="container ">
         <div class="row row align-items-center">
           <div class="col-lg-6">
             <h1 class="mt-3 text-white text-center">Celeste Artley</h1>
             <p class="lead text-white my-5 text-center">
-              Full stack developer blurb
+              Full stack web developer.
             </p>
             <div class="d-flex justify-content-center">
               <a
@@ -144,7 +145,7 @@
       </div>
     </section>
     <section class="bg-OffGrey" name="Portfolio">
-      <div class="row">
+      <div class="row px-4">
         <div class="col-sm-4 mt-3 mb-3">
           <div class="card text-white bg-primary shadow">
             <div class="card-body">
@@ -179,46 +180,44 @@
     </section>
     <section name="Skillset">
       <div class="bg-grey">
-        <div class="col-lg-12">
-          <h1 class="text-light text-center">Skillsets</h1>
-        </div>
-        <div class="row">
-          <div class="col-sm-2 mt-3 mb-3">
+          <h1 class="text-light text-center ">Skillsets</h1>
+        <div class="row justify-content-center px-4">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/TS.png"
               alt="TypeScript Logo"
             />
           </div>
-          <div class="col-sm-2 mt-3 mb-3">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/JS.png"
               alt="TypeScript Logo"
             />
           </div>
-          <div class="col-sm-2 mt-3 mb-3">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/C.png"
               alt="TypeScript Logo"
             />
           </div>
-          <div class="col-sm-2 mt-3 mb-3">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/java.png"
               alt="TypeScript Logo"
             />
           </div>
-          <div class="col-sm-2 mt-3 mb-3">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/Node.jpeg"
               alt="TypeScript Logo"
             />
           </div>
-          <div class="col-sm-2 mt-3 mb-3">
+          <div class="col-sm-1 mt-3 mb-3">
             <img
               class="img-thumbnail rounded align-middle"
               src="./Img/React.png"
@@ -228,8 +227,51 @@
         </div>
       </div>
     </section>
-    <section class="footer mr-auto">
-      <div></div>
+    <section name="AboutMe">
+      <div class="bg-dark pb-3">
+        <h1 class="text-white text-center pt-3">Who am I?</h1>
+        <div class="row px-4">
+          <div class="col-sm-4 mt-3 mb-3">
+            <div class="card text-white bg-secondary shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Driven</h5>
+                <p class="card-text text-center p-3">I am the type of person that loves to see project finish. My love for organization and patterns means I will work hard to make sure all the things are in line. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-3 mb-3">
+            <div class="card text-white bg-secondary shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Knowledgeable</h5>
+                <p class="card-text text-center p-3">Being knowledgeable about a subject matters to me because communication is one of the best ways to complete a group project, and that can only come through proper knowledge.  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-3 mb-3">
+            <div class="card text-white bg-secondary shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Creative</h5>
+                <p class="card-text text-center p-3">Creativity is the best way for me to express myself through new and interesting ideas. When it comes to code, this shows up a lot in taking others ideas and finding how to get them working programmatically.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="footer mr-auto bg-dark">
+      <div class="row">
+        <div class="col-sm-3">
+          <h3 class="text-white text-center">Created by Celeste Artley</h3>
+          </div>
+        <div class="col-sm-3">
+          <a href="#"><h2 class="bi bi-envelope text-center"> </h2></a>
+        </div>
+        <div class="col-sm-3">
+        <a href="#"><h2 class="bi bi-linkedin text-center"> </h2></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="#"><h2 class="bi bi-github text-center"> </h2></a>
+          </div>
+      </div>
     </section>
   </body>
 </html>
