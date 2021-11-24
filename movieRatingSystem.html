@@ -73,7 +73,9 @@
                 Portfolio
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">All Projects</a>
+                <a class="dropdown-item" href="/allProjects.html"
+                  >All Projects</a
+                >
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="movieRatingSystem.html"
                   >Movie Rating System</a
@@ -83,7 +85,11 @@
                   href="../Project2/Sorting Algorithm Visualizer/Public/index.html"
                   >Sorting Algorithm Visualizer</a
                 >
-                <a class="dropdown-item" href="#">Project 3</a>
+                <a
+                  class="dropdown-item"
+                  href="https://github.com/Celeste-Artley/InventoryJavaOOP"
+                  >Inventory Management System</a
+                >
               </div>
             </li>
             <li class="nav-item">
@@ -99,7 +105,7 @@
       </div>
     </section>
     <section name="MainContentLarge">
-      <div class="bg-grey d-none d-lg-block">
+      <div class="bg-grey d-none d-sm-block">
         <h1 class="text-center mb-4 pt-2 pb-2 text-white bg-secondary">
           Movie Rating System
         </h1>
@@ -120,7 +126,17 @@
                 <p class="card-text text-white">
                   This movie rating system is one in which you could organize
                   your movie collection and keep track of thoughts and reviews
-                  of your favourite movies.
+                  of your favourite movies. It was created using node and all
+                  the code can be found,
+                  <a
+                    href="https://github.com/Celeste-Artley/Movie-Rating-Personal-Project-v2"
+                    >Here.
+                  </a>
+                  The backend was created with Node.js and Express. The front
+                  end was created with EJS, JQuery and Bootstrap. I leveraged a
+                  MongoDB database and connected to that with mongoose. This was
+                  my first attempt at creating a CRUD application that turned
+                  out well and was super fun to do.
                 </p>
               </div>
             </div>
@@ -167,18 +183,11 @@
                   Search the IMDB database
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  When you arrived at the home page you were prompted with a
+                  Google style search bar. This would take user input and parse
+                  it to find a movie that matched your text by connecting to the
+                  IMDB public API. It would find the 9 closest movies that
+                  matched and display them in a grid.
                 </p>
               </div>
             </div>
@@ -192,18 +201,11 @@
                   Rate your movies and describe your thoughts
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  If you were logged in to an account using Google, you would
+                  then be prompted to select a movie, give it some rating, and
+                  describe your thoughts. Once submitted it would send a request
+                  to MongoDB to store that information associated with your
+                  current logged in user.
                 </p>
               </div>
             </div>
@@ -231,18 +233,11 @@
                   Edit and Delete your movie collection.
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  Once you have gotten done rating your most recent watch you
+                  can go update or delete the ones from your collection by
+                  navigating to your My Collection page. From here you can
+                  scroll through a list of all the movies you have watched and
+                  edit their info in the database or delete them outright.
                 </p>
               </div>
             </div>
@@ -272,7 +267,17 @@
                 <p class="card-text text-white">
                   This movie rating system is one in which you could organize
                   your movie collection and keep track of thoughts and reviews
-                  of your favourite movies.
+                  of your favourite movies. It was created using node and all
+                  the code can be found,
+                  <a
+                    href="https://github.com/Celeste-Artley/Movie-Rating-Personal-Project-v2"
+                    >Here.
+                  </a>
+                  The backend was created with Node.js and Express. The front
+                  end was created with EJS, JQuery and Bootstrap. I leveraged a
+                  MongoDB database and connected to that with mongoose. This was
+                  my first attempt at creating a CRUD application that turned
+                  out well and was super fun to do.
                 </p>
               </div>
             </div>
@@ -293,18 +298,12 @@
                   Login using OAuth 2 login with google
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  My system did not store any personal data. I left that to
+                  Google with OAuth 2. What the system does is connect to google
+                  and pull user information from them, then store username info
+                  in a MongoDB server. When you connect with that user the
+                  cookie is stored and is used to lookup your movie reviews in a
+                  separate MongoDB server
                 </p>
               </div>
             </div>
@@ -325,18 +324,11 @@
                   Search the IMDB database
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  When you arrived at the home page you were prompted with a
+                  Google style search bar. This would take user input and parse
+                  it to find a movie that matched your text by connecting to the
+                  IMDB public API. It would find the 9 closest movies that
+                  matched and display them in a grid.
                 </p>
               </div>
             </div>
@@ -357,18 +349,11 @@
                   Rate your movies and describe your thoughts
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  If you were logged in to an account using Google, you would
+                  then be prompted to select a movie, give it some rating, and
+                  describe your thoughts. Once submitted it would send a request
+                  to MongoDB to store that information associated with your
+                  current logged in user.
                 </p>
               </div>
             </div>
@@ -389,18 +374,11 @@
                   Edit and Delete your movie collection.
                 </h3>
                 <p class="card-text text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  blanditiis aliquam officia. Est repudiandae possimus
-                  molestiae. At debitis ea quia fugit dolore? Aliquam quidem
-                  molestias esse, in repellendus saepe iusto. Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Quod blanditiis
-                  aliquam officia. Est repudiandae possimus molestiae. At
-                  debitis ea quia fugit dolore? Aliquam quidem molestias esse,
-                  in repellendus saepe iusto. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Quod blanditiis aliquam officia.
-                  Est repudiandae possimus molestiae. At debitis ea quia fugit
-                  dolore? Aliquam quidem molestias esse, in repellendus saepe
-                  iusto.
+                  Once you have gotten done rating your most recent watch you
+                  can go update or delete the ones from your collection by
+                  navigating to your My Collection page. From here you can
+                  scroll through a list of all the movies you have watched and
+                  edit their info in the database or delete them outright.
                 </p>
               </div>
             </div>
@@ -414,7 +392,11 @@
           <h3 class="text-white text-center">Created by Celeste Artley</h3>
         </div>
         <div class="col-4 col-sm-3">
-          <a href="mailto: celestepersonalmail@gmail.com"
+          <a
+            href="mailto:celeste@celesteartley.com"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Celeste@celesteartley.com"
             ><h2 class="bi bi-envelope text-center"></h2
           ></a>
         </div>
