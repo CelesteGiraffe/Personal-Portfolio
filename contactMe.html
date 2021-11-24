@@ -38,7 +38,7 @@
         <a class="navbar-brand ml-5" href="./index.html"
           ><img
             class="IconBrand"
-            src="/View/Img/profilePic.jpg"
+            src="/Img/profilePic.jpg"
             alt="Celeste Artley Logo"
             srcset=""
         /></a>
@@ -108,7 +108,13 @@
             <div class="card mt-2 mx-auto p-4 bg-light">
               <div class="card-body bg-light">
                 <div class="container">
-                  <form id="contact-form" role="form">
+                  <form
+                    action="/JS/Model/sendEmailForm.php"
+                    id="contact-form"
+                    name="contact"
+                    role="form"
+                    method="post"
+                  >
                     <div class="controls">
                       <div class="row">
                         <div class="col-md-6">
@@ -194,11 +200,14 @@
                           </div>
                         </div>
                         <div class="col-md-12 pt-2">
-                          <input
+                          <button
                             type="submit"
                             class="btn btn-success btn-send pt-2 btn-block"
+                            name="submit"
                             value="Send Message"
-                          />
+                          >
+                            Contact
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -206,9 +215,7 @@
                 </div>
               </div>
             </div>
-            <!-- /.8 -->
           </div>
-          <!-- /.row-->
         </div>
       </div>
     </section>
